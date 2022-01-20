@@ -1,0 +1,31 @@
+TAREA 10. DISPLAY LM016L. COMANDOS DE POSICION DDRAM.
+
+Realizar un programa para control de un display de control liquido LM016L , considerando:
+
+DATOS :  RB4 A RB7 ,    RS:  RB0  ,  ENABLE : RB1 .
+
+PROGRAMA 01:
+
+En el display se debe mostrar una letra X en cualquier posición visible del display,
+
+Usando tres logic toggle , para mover la letra X a traves de toda el area visible del display.  Al estar en un extremo, solo podria realizar un movimiento hacia el lado visible del display.
+
+Mover la letra a la Izquierda: RA0   ,  mover la letra a la derecha : RA1  ,   subir o bajar la letra: RA2.
+
+
+PROGRAMA 02:
+
+En el display debe mostrase el valor de un número de 4 digitos, debe ubicarse el final del segundo reglon.
+
+Usando tres logic toggle, deben editar ese número :
+
+hacer parpadear y dejar de hacer parpadear el cursor sobre un digito: RA0 .     
+
+  Intercambiar la accion del parpadeo del cursor entre los cuatro digitos: RA1
+
+Modificar el digito que esta parpadeando de 1 en 1 en un rango de 0 a 9, para editar su valor : RA2
+
+
+Debe presentar el archivo PBP y el archivo HEX. El nombre debe los archivos debe ser su apellido paterno seguidio por un guión bajo y los tres caracteres del apellido materno (maximo 20 caracteres) terminando con los caracters 01 o 02 , para diferenciar los programas.   
+
+Los archivos deben estar comprimidos directamente en un archivo comprimido RAR o ZIP del mismo nombre. (no debe comprimirse una carpeta conteniendo los archivos, LOS ARCHIVOS DEBEN ESTAR COMRPIMIDOS DIRECTOS AL ARCHIVO RAR)
